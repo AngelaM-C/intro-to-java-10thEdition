@@ -1,0 +1,24 @@
+package Feb15;
+
+public class CarClass {
+	
+//create attributes
+	public int year;
+	public String color;
+	
+	
+	//create method... without static
+	public void start() {
+		
+		System.out.println("Car is starting.");
+	}
+	
+	public void stop() {
+		
+		System.out.println("Car is stopping.");
+	}
+	
+	
+	
+	
+}

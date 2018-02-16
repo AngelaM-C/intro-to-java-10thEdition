@@ -1,0 +1,14 @@
+package Feb15;
+
+public class Test {
+	public static void main(String[]args) {
+		
+		//create an object 
+		CarClass car1 = new CarClass();
+		
+		car1.start();
+		car1.stop();
+		
+		
+	}
+}
