@@ -24,7 +24,7 @@ public class EstimateAreas {
 	    double s234= (d42+ d34 + d23)/2;
 		
 		//area124 is area between (x1,y1) ,(x2&y2) & (x4,y4)
-		double area124=Math.sqrt(s124*(s124-d12)*(s124-d42)*(s124-d41));
+		double area124=Math.sqrt (s124*(s124-d12)*(s124-d42)*(s124-d41));
 		
 		//area234 is area between (x2,y2) ,(x3&y3) & (x4,y4)
 		double area234=Math.sqrt(s234*(s234-d42)*(s234-d34)*(s234-d23));

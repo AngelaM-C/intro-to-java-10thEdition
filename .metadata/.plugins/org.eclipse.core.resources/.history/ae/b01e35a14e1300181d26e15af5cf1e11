@@ -1,0 +1,33 @@
+package chapter4;
+import java.util.Scanner;
+public class CheckSSN {
+
+	public static void main(String[] args) {
+		Scanner input= new Scanner(System.in);
+		
+		System.out.println("Enter a SSN (DDD-DD-DDDD:");
+		
+		String ssn= input.nextLine();
+		
+		for(int i=0 ; i< ssn.length(); i++) {
+			
+			if(i%3 == 0 && ssn.charAt(i)== '-') 
+				continue;
+			else if(i%3 == 0 && ssn.charAt(i) != '-'){
+				System.out.println(ssn + " is a invalid social security number."); 
+				return;
+			}
+			
+			if(Character.isDigit(ssn.charAt(i))) 
+				continue;
+			else {
+				System.out.println(ssn + " is a invalid social security number."); 
+				return;
+				}
+		}
+		
+		System.out.println(ssn + " is a valid social security number.");
+
+	}
+
+}
