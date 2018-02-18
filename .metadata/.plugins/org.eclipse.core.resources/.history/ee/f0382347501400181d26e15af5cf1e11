@@ -1,0 +1,15 @@
+package chapter5;
+
+public class SumASeries {
+
+	public static void main(String[] args) {
+		
+		double sum=0;
+		
+		for(double i=1 ,j=3; j>100; i+=2 , j+=2) 
+			sum+=(i/j);
+		
+		System.out.printf("The sum of the series is %.2f", sum);
+	}
+
+}
