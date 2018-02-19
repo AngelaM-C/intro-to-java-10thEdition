@@ -14,8 +14,7 @@ public class CreditCardValidation {
 			System.out.println(num + " is valid.");
 		else
 			System.out.println(num + " is invalid.");
-		
-		
+
 	}
 
 	public static boolean isValid(long number) {
