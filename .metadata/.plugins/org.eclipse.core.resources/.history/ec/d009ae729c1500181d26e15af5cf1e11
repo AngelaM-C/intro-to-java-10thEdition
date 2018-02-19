@@ -15,7 +15,7 @@ public class EightQueens {
 		
 		
 
-		for(int count=0,i =0; count<=8;) {
+		for(int count=0,i =0; count<8;) {
 			
 			int j= (int)(Math.random()*8);
 			

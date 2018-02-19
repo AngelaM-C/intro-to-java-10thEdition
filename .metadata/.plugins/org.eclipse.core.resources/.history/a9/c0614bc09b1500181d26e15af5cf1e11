@@ -15,14 +15,13 @@ public class EightQueens {
 		
 		
 
-		for(int count=0,i =0; count<=8;) {
-			
+		for(int count=0; count<8;) {
+			int i= (int)(Math.random()*8);
 			int j= (int)(Math.random()*8);
 			
 			if(isSafe(array, i, j)) {
 				array[i][j]="|Q";
 				count++;
-				i++;
 			}
 		}
 		
