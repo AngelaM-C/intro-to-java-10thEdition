@@ -1,0 +1,41 @@
+package chapter7;
+
+import java.util.Scanner;
+
+public class SortStudents {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("Enter the number of students:");
+
+		double[] score = new double[input.nextInt()];
+
+		String[] name = new String[score.length];
+
+		for (int i = 0; i < score.length; i++) {
+			System.out.println("Enter student name:");
+			input.next();
+			name[i] = input.nextLine();
+			System.out.println("Enter student score:");
+			score[i] = input.nextDouble();
+		}
+		double min = score[0];
+		String minName = name[0];
+
+		for (int i = 0; i < score.length; i++) {
+
+			for (int j = 0; j < score.length; j++) {
+				if (score[j] < min)
+					min = score[j];
+				minName = name[j];
+			}
+			score[i] = min;
+			name[i] = minName;
+		}
+		for (int i=0; i<name.length;i++) {
+			System.out.println(name[i]);
+		}
+	}
+
+}
