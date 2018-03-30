@@ -15,13 +15,13 @@ public class LongestCommonPrefix {
 
 		String str2 = input.nextLine();
 
-		String max = str1;
+		String min = str1;
 
-		if (str1.length() < str2.length()) {
-			max = str2;
+		if (str1.length() > str2.length()) {
+			min = str2;
 		}
 
-		for (int i = 0; i < max.length(); i++) {
+		for (int i = 0; i < min.length(); i++) {
 
 			if (str1.charAt(i) != str2.charAt(i)) {
 				if (i == 0) {
@@ -31,7 +31,10 @@ public class LongestCommonPrefix {
 					System.out.println("The common prefix is " + str1.substring(0, i));
 					break;
 				}
+				
 			}
+			if(i== min.length() -1)
+				System.out.println(min);
 
 		}
 	}

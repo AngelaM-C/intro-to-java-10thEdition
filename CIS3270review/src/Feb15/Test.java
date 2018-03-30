@@ -12,7 +12,7 @@ public class Test {
 		
 		//assign a value to the property
 		car1.year=2002;
-		car1.color="Blue";
+		
 		
 		//print an attribute
 		System.out.println(car1.year);
@@ -25,12 +25,15 @@ public class Test {
 		CarClass car4= new CarClass(2020, "Orange");
 		
 		
-		BMI b1= new BMI("Tom",100,100);
+		System.out.println(CarClass.count);
 		
-		BMI b2= new BMI("Sarah",80,80);
+		car1.cleanUp(car1);
 		
-		b1.printBMI();
-		b2.printBMI();
+		System.out.println(CarClass.count);
+		
+		2car1.color.toUpperCase();
+		
+		System.out.println(car1.color);
 		
 }
 }

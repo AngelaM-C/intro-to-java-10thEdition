@@ -1,7 +1,8 @@
 package chapter6;
 
 public class DisplaySortedNumbers {
-
+	
+	
 	public static void main(String[] args) {
 		displaySortedNumbers(7, 10, 6);
 
@@ -27,4 +28,8 @@ public class DisplaySortedNumbers {
         }
         System.out.println(num1 + " " + num2 + " " + num3);
 	}
+	
+	
+	
+	
 }

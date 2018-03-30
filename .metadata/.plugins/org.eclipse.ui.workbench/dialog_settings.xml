@@ -28,6 +28,7 @@
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/angelachaves/Desktop/Assignment 3270.1.zip"/>
 			<item value="/Users/angelachaves/Desktop/Assignment2.zip"/>
 			<item value="/Users/angelachaves/Desktop/Assignment1.zip"/>
 			<item value="/Users/angelachaves/Desktop/bmi.zip"/>
